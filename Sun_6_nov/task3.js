@@ -1,8 +1,8 @@
-for(let i=0 ; i < 1000 ; i++ )
+for(let i=1 ; i < 1000 ; i++ )
 {
     let x= i+1;
-    let y=x%13;
-    if(y==0)
+    // let y=x%13;
+    if(x%13==0)
     {
         console.log(x);
     

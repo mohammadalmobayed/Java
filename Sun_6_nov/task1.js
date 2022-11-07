@@ -4,10 +4,14 @@ let x = prompt('enter your birthday month ')
 // {
 //   console.log( 'August ');
 // }
-//  else if ( x ==3)
+//  else if ( x==3)
 // {
 //   console.log( 'March');
 // }
+// else if 
+{
+    co
+}
 
 switch(x)
 {
@@ -17,4 +21,5 @@ switch(x)
     case '3':
     console.log( 'march ')
     break;
+
 }
