@@ -87,10 +87,10 @@ function SmallestNumber(first, second,third)
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 13
-let X =" my name is moh";
-let Y="school";
-let Z = "github";
-let N= "noor ";
-let E ="karam";
-function shorterString ( X,Y,Z,N,E){
-  if(X.lenght)
+// let X =" my name is moh";
+// let Y="school";
+// let Z = "github";
+// let N= "noor ";
+// let E ="karam";
+// function shorterString ( X,Y,Z,N,E){
+//   if(X.lenght)}
