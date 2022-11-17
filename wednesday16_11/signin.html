@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-color: lavender;
+        }
+
+        form{
+            font-size: 20px;
+            border: 2px solid black;
+            padding: 20px;
+            margin-left:35%;
+            margin-top: 10%;
+            text-align: center;
+            width:400px;
+            color:white;
+            background-color: rgb(128, 77, 0);
+
+        }
+ </style>       
+</head>
+<body>
+    <form method="get" >
+        <h2>Sign In</h2>
+        <label>Email</label><br>
+        <input type="email" id="email" name="email">
+        <br>
+        <label>Password</label><br>
+        <input type="password" id="pass" name="password">
+        <br>
+        <br>
+        <input type="submit" value="submit" onclick="checkData()"></input>
+    </form>
+    <script>
+        function checkData(){
+    var enteremail = document.getElementById('email').value;
+    var enterPwd = document.getElementById('pass').value;
+
+    var getEmail=localStorage.getItem('useremail');
+    var getPwd=localStorage.getItem('userpwd');
+
+    if(enteremail == getEmail)
+    {
+        if(enterPwd == getPwd)
+        {
+            alert("login successful");
+        }
+        else
+        {
+            alert("wrong password");
+        }
+    }
+    else{
+        alert("Invalid datalis");
+    }
+}
+    </script>
+</body>
+</html>

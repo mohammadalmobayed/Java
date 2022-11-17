@@ -9,7 +9,7 @@ function setData(data, userData) {
     userArray["userName"] = data;
     return (
       (document.getElementById("userName").innerHTML = data),
-      (document.getElementById("userName").style.backgroundColor = "Lavender"),
+      (document.getElementById("userName").style.backgroundColor = "red"),
       (document.getElementById("userName").style.display = "none"),
       setUserData(userArray)
     );
